@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(236, 190, 104);
+    text-align: center;
+}
+
+.formDiv {
+    background-color: rgb(113, 205, 255);
+    display: inline-block;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+/* .inputDiv { */
+    /* background-color: rgb(113, 205, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px;
+} */
+
+h1 {
+    padding-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(152, 0, 0);
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+    margin-top: 2px;
+    /* height: 22px; */
+}
+
+input {
+    border-radius: 5px;
+    width: 100px;
+}
+
+.resultsDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.resultTemp {
+    padding-left: 10px;
+}
+
+#temp {
+    border-radius: 5px;
+    background-color:hsla(180, 97%, 88%, 0.929);
+}
+
+#converter {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.selectorDiv {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+select {
+    border-radius: 5px;
+    height: 22px;
+}
+
+button {
+     background-color: rgb(44, 145, 253);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(65, 106, 195);
+}
+
+ul {
+    list-style-type:none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#reset {
+    border-radius: 5px;
+}
